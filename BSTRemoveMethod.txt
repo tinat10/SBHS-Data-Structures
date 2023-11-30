@@ -1,0 +1,24 @@
+//NOTES NOT REAL CODE.
+
+public class BSTRemoveMethod { // for binary search trees 
+
+	public void DeleteLeaf() { // Case 1
+		//set the parent node of the leaf to point towards null
+		setNode = null;
+	}
+
+	public void DeleteThoseWithOneChild() {
+		if (node has one child)
+			//node.parent points directly towards child
+		node.parent.setLeft(node.child); //can set to left as well
+	}
+
+	public void DeleteThoseWithTwoChildren {
+		//create sub method 
+		if (node has two children) {
+			find inorder successor (next # in order) and place that node as the original node. +
+			set inorder succesor as null right after
+		}
+	}
+
+}
